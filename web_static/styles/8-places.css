@@ -1,0 +1,129 @@
+.places{
+    width: 100%;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.places > h1{
+    font-size: 30px;
+    text-align: left;
+    flex-basis: 100%;
+}
+
+.places > article{
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: #FF5A5F 1px solid;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.places > article > h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+.price_by_night{
+    color: #FF5A5F;
+    border: #FF5A5F 4px solid;
+    border-radius: 50%;
+    min-width: 60px;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    position: absolute;
+    top: 11px;
+    right: 21px;
+}
+
+.price_by_night > p {
+    margin: 0 0 0 0;
+}
+
+.information{
+    height: 80px;
+    border-top: #DDDDDD 1px solid;
+    border-bottom: #DDDDDD 1px solid;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.max_guest {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+
+.number_rooms {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+
+.number_bathrooms {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+
+.max_guest > p, .number_rooms > p, .number_bathrooms > p{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.icon_guest{
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 50px;
+    background: url("../images/icon_group.png") no-repeat center;
+}
+
+.bed_image {
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 50px;
+    background: url("../images/icon_bed.png") no-repeat center;
+}
+
+.bath_image {
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 50px;
+    background: url("../images/icon_bath.png") no-repeat center;
+}
+
+.user > p {
+    margin-top: 20px;
+    margin-bottom:0px;
+}
+.description > p{
+    margin-top:8px;
+    margin-bottom:0;
+}
